@@ -1,0 +1,66 @@
+# Maven
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+
+.gradle/
+build/
+
+# Logs
+
+logs/
+*.log
+
+# Spring Boot
+
+*.jar
+*.war
+*.ear
+
+# Environment
+
+.env
+.env.*
+application-local.properties
+application-dev.properties
+
+# IDE - IntelliJ
+
+.idea/
+*.iml
+*.iws
+
+# IDE - Eclipse
+
+.project
+.classpath
+.settings/
+
+# IDE - VS Code
+
+.vscode/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.swp
+
+# Node (ako ima frontend u projektu)
+
+node_modules/
+dist/
+
+# Coverage / test
+
+coverage/
