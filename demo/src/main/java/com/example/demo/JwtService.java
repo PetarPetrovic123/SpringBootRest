@@ -6,7 +6,6 @@ import java.util.Date;
 
 import javax.crypto.spec.SecretKeySpec;
 
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import io.jsonwebtoken.Jwts;
@@ -40,7 +39,7 @@ public class JwtService {
                 .getSubject();
     }
 
-    public boolean validateToken(String token, UserDetails userDetails) {
+    public boolean validateToken(String token) {
         try {
             Jwts.parserBuilder()
                 .setSigningKey(key)
