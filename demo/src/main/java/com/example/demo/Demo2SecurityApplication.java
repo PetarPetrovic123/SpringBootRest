@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Demo2SecurityApplication {
 
 	public static void main(String[] args) {
-		EnvLoader.load();
+		/*EnvLoader.load();*/
 		SpringApplication.run(Demo2SecurityApplication.class, args);
 	}
 

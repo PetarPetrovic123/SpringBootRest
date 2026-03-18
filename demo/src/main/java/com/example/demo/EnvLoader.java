@@ -1,4 +1,4 @@
-package com.example.demo;
+/*package com.example.demo;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
@@ -11,4 +11,4 @@ public class EnvLoader {
             System.setProperty(entry.getKey(), entry.getValue());
         });
     }
-}
+}*/
